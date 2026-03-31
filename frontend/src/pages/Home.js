@@ -34,17 +34,17 @@ export default function Home() {
         Services
       </Link>
 
-      <a className="hover:text-yellow-300 transition">
-        About
-      </a>
+  <Link to="/about" className="hover:text-yellow-300 transition">
+  About
+</Link>
 
       <Link to="/portfolio" className="hover:text-yellow-300 transition">
         Portfolio
       </Link>
 
-      <a className="hover:text-yellow-300 transition">
-        Contact
-      </a>
+     <Link to="/contact" className="hover:text-yellow-300 transition">
+  Contact
+</Link>
 
     </div>
 
