@@ -1,20 +1,12 @@
 import { FaBullhorn, FaChartLine, FaCode, FaPalette } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#1e293b] text-white">
 
-      {/* Navbar */}
-      <div className="flex justify-between items-center px-8 py-3 bg-white/10 backdrop-blur-md rounded-full mx-10 mt-6 shadow">
-        <h2 className="font-semibold">CM Agency</h2>
-
-        <div className="space-x-6 text-sm text-gray-300">
-          <Link to="/">Home</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/portfolio">Portfolio</Link>
-        </div>
-      </div>
+      {/* ✅ COMMON NAVBAR */}
+      <Navbar />
 
       {/* Header */}
       <div className="mx-20 mt-10 bg-white/10 backdrop-blur-md p-10 rounded-2xl text-gray-300">
